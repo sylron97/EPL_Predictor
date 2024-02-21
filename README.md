@@ -11,13 +11,13 @@ Features That were important to the Random Forrest Regressor Model. Basis on thi
 ![image](https://github.com/sylron97/Python-Projects/assets/132649680/5bdf5ac1-f566-46bc-a05c-a2107c2f99ed)
 
 Below is the confusion matrix of the model
-![image](https://github.com/sylron97/Python-Projects/assets/132649680/207a1544-a1a8-4e26-8608-5ac045af5d78)
 hence as observed from the confusion matrix the Accuracy of the model is 64.375% which is fairly good for predicting future football matches.
+![image](https://github.com/sylron97/Python-Projects/assets/132649680/207a1544-a1a8-4e26-8608-5ac045af5d78)
 
 Below is the Classification Report
 
 Classification Report:
-              precision    recall  f1-score   support
+           precision    recall  f1-score   support
 
            Win       0.67      0.78      0.72      1254
            Draw       0.43      0.25      0.32       840
