@@ -18,14 +18,12 @@ Below is the confusion matrix of the model as observed from the confusion matrix
 Below is the Classification Report
 
 Classification Report:
-           precision    recall  f1-score   support
-
-           Win       0.67      0.78      0.72      1254
-           Draw       0.43      0.25      0.32       840
-           Loss       0.69      0.77      0.73      1266
-
-    accuracy                           0.64      3360
-   macro avg       0.60      0.60      0.59      3360
+          precision    recall  f1-score   support
+Win       0.67      0.78      0.72      1254
+Draw       0.43      0.25      0.32       840
+Loss       0.69      0.77      0.73      1266
+accuracy                           0.64      3360
+macro avg       0.60      0.60      0.59      3360
 weighted avg       0.62      0.64      0.62      3360
 
 Results:
