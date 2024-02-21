@@ -10,8 +10,9 @@ Regression Models Used.
 Features That were important to the Random Forrest Regressor Model. Basis on this i decided to remove some features such FTGS and HTR since the model dependent very higly on those features which could skew the result of the model.
 ![image](https://github.com/sylron97/Python-Projects/assets/132649680/5bdf5ac1-f566-46bc-a05c-a2107c2f99ed)
 
-Below is the confusion matrix of the model
-hence as observed from the confusion matrix the Accuracy of the model is 64.375% which is fairly good for predicting future football matches.
+Below is the confusion matrix of the model as observed from the confusion matrix the Accuracy of the model is 64.375% which is fairly good for predicting future football matches.
+
+
 ![image](https://github.com/sylron97/Python-Projects/assets/132649680/207a1544-a1a8-4e26-8608-5ac045af5d78)
 
 Below is the Classification Report
