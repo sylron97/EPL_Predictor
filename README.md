@@ -1,4 +1,3 @@
-# Python-Projects
 Prediction Model for the English Premier League Season 2023-2024
 
 Created a Prediction Model to predict results of every match for the English Premier League Season 2023-2024 with Historical Data used from 2000-2001 Season to 2022-2023 Season.
