@@ -4,8 +4,8 @@ Created a Prediction Model to predict results of every match for the English Pre
 
 Techniques Used:
 Utilized Regression Models:
-Poisson Regression Model: Predicted features such as Full-time Goals Scored, Shots On Target, Half-time Goals Scored, etc., crucial for determining match outcomes.
-Random Forest Regressor: Predicted the Full-time Result (FTR) of matches.
+1.Poisson Regression Model: Predicted features such as Full-time Goals Scored, Shots On Target, Half-time Goals Scored, etc., crucial for determining match outcomes.
+2.Random Forest Regressor: Predicted the Full-time Result (FTR) of matches.
 
 Feature Selection Strategy:
 Identified and removed features such as Full-time Goals Scored (FTGS) and Half-time Result (HTR) which exhibited high dependency, potentially skewing the model's predictions.
