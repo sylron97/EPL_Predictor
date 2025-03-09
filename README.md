@@ -7,8 +7,11 @@ Using historical data from 2000-01 to 2022-23, this model forecasts match result
 
 🎯 Objective
 The primary goal of this project is to develop a prediction model capable of forecasting the outcomes of every EPL match for the 2023-24 season based on historical match data. The model aims to:
+
 ✅ Predict Full-Time Result (FTR) – Win, Draw, or Loss
+
 ✅ Forecast key match statistics such as Full-Time Goals, Shots on Target, Half-Time Goals
+
 ✅ Analyze team performance over an entire season to estimate final league standings
 
 🛠️ Techniques Used:
@@ -26,7 +29,9 @@ These features are critical in determining match outcomes.
 
 📊 Feature Selection Strategy:
 To enhance model performance, certain features were removed due to high correlation or redundancy:
+
 🚫 Full-Time Goals Scored (FTGS) – Highly dependent on other features, leading to potential data leakage.
+
 🚫 Half-Time Result (HTR) – Correlated with full-time results, reducing predictive independence.
 
 Feature engineering focused on selecting variables that directly impact match outcomes without introducing biases.
@@ -63,6 +68,7 @@ The model's performance was evaluated using accuracy, a confusion matrix, and a 
 The model successfully simulated the 2023-24 EPL season, generating key insights:
 
 🔹 Final Standings (Top & Bottom Teams):
+
 🏆 Manchester City secured the highest points, followed by Liverpool and Arsenal.
 
 🔻 Burnley, Sheffield United, and Brentford finished at the bottom.
