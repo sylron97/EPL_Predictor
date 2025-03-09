@@ -1,6 +1,7 @@
 **EPL Predictor: Forecasting the Outcomes of Premier League Matches for The Premier League Season 2023-2024**
 
-📌 Introduction / Project Overview
+📌 Introduction / Project Overview:
+
 This project is one of the first open-source implementations to predict win, draw, or loss outcomes of English Premier League (EPL) matches using a hybrid approach combining Poisson Regression and Random Forest Regressor. While most football prediction models rely on either statistical methods or machine learning, this project leverages both, enhancing accuracy and offering deeper insights.
 
 Using historical data from 2000-01 to 2022-23, this model forecasts match results, key performance metrics, and final league standings for the 2023-24 EPL season. By making this project open-source, it serves as a valuable resource for football analysts, data scientists, and betting enthusiasts.
@@ -26,6 +27,25 @@ These features are critical in determining match outcomes.
 2️⃣ Random Forest Regressor:
 - Used to predict Full-Time Results (Win, Draw, or Loss)
 - Incorporates multiple features to improve classification accuracy.
+
+🔥 Tech Stack Used:
+
+📊 Data Processing & Analysis:
+
+- Python – Core programming language for data analysis & model building
+- Pandas – Data manipulation and preprocessing
+- NumPy – Numerical computations
+📈 Statistical & Machine Learning Models:
+
+- Scikit-learn – Implementation of Random Forest Regressor
+- Statsmodels – Poisson Regression modeling
+📊 Visualization & Reporting:
+
+- Matplotlib & Seaborn – Data visualization for trends and results
+- Tableau – Interactive dashboard for match predictions and league standings
+📂 Data Storage & Handling:
+
+- CSV Files – Match history dataset storage and processing
 
 📊 Feature Selection Strategy:
 To enhance model performance, certain features were removed due to high correlation or redundancy:
