@@ -11,18 +11,20 @@ The primary goal of this project is to develop a prediction model capable of for
 ✅ Forecast key match statistics such as Full-Time Goals, Shots on Target, Half-Time Goals
 ✅ Analyze team performance over an entire season to estimate final league standings
 
-🛠️ Techniques Used
+🛠️ Techniques Used:
+
 1️⃣ Poisson Regression Model
 Used to predict numerical match statistics, including:
 - Full-Time Goals Scored (FTGS)
 - Shots On Target
 - Half-Time Goals Scored (HTGS)
 These features are critical in determining match outcomes.
-2️⃣ Random Forest Regressor
+
+2️⃣ Random Forest Regressor:
 - Used to predict Full-Time Results (Win, Draw, or Loss)
 - Incorporates multiple features to improve classification accuracy.
 
-📊 Feature Selection Strategy
+📊 Feature Selection Strategy:
 To enhance model performance, certain features were removed due to high correlation or redundancy:
 🚫 Full-Time Goals Scored (FTGS) – Highly dependent on other features, leading to potential data leakage.
 🚫 Half-Time Result (HTR) – Correlated with full-time results, reducing predictive independence.
@@ -30,7 +32,7 @@ To enhance model performance, certain features were removed due to high correlat
 Feature engineering focused on selecting variables that directly impact match outcomes without introducing biases.
 ![image](https://github.com/sylron97/Python-Projects/assets/132649680/5bdf5ac1-f566-46bc-a05c-a2107c2f99ed)
 
-✅ Model Evaluation
+✅ Model Evaluation:
 The model's performance was evaluated using accuracy, a confusion matrix, and a classification report.
 
 🔹 Accuracy: 64.38% – indicating strong predictive power for match results.
@@ -40,9 +42,6 @@ The model's performance was evaluated using accuracy, a confusion matrix, and a 
 📌 Classification Report:
 ![image](https://github.com/sylron97/Python-Projects/assets/132649680/207a1544-a1a8-4e26-8608-5ac045af5d78)
 
-Below is the Classification Report
-
-Classification Report:
                       precision    recall  f1-score   support
 
            0 (win)       0.67      0.78      0.72      1254
