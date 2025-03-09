@@ -55,6 +55,7 @@ The model's performance was evaluated using accuracy, a confusion matrix, and a 
 🔹 Key Observations:
 
 ✔ The model predicts wins and losses more effectively than draws, which are harder to forecast due to lower occurrence rates.
+
 ✔ Achieved balanced recall and F1-score across classes, ensuring a reliable prediction framework.
 
 📈 Results Analysis:
@@ -63,13 +64,16 @@ The model successfully simulated the 2023-24 EPL season, generating key insights
 
 🔹 Final Standings (Top & Bottom Teams):
 🏆 Manchester City secured the highest points, followed by Liverpool and Arsenal.
+
 🔻 Burnley, Sheffield United, and Brentford finished at the bottom.
 ![image](https://github.com/sylron97/Python-Projects/assets/132649680/e506ee0e-96a9-4425-85f1-d711f488b8f0)
 
 🔹 Win-Loss Distribution:
 
 ✔ Manchester City recorded 26 wins, followed by Arsenal and Liverpool with 25 each.
+
 ✔ Liverpool finished second due to one additional draw compared to Arsenal.
+
 ✔ Burnley had the most losses (28), followed by Sheffield United (27) and Brentford (24).
 ![image](https://github.com/sylron97/Python-Projects/assets/132649680/29452e9a-ab84-48e0-a1b2-29dd9f076e90)
 
@@ -80,7 +84,9 @@ This project is one of the first open-source football analytics models to integr
 📌 Key Takeaways:
 
 ✔ First-of-its-kind open-source hybrid model for football match predictions.
+
 ✔ Provides accurate insights into team performance and match results.
+
 ✔ Open-source implementation allows for further research and improvements in football analytics, betting models, and AI-driven sports forecasting.
 
 This project serves as a foundation for further development in predictive football analytics. Future improvements could include deep learning models, player-level data integration, and real-time match updates.
