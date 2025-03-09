@@ -48,6 +48,7 @@ These features are critical in determining match outcomes.
 - CSV Files – Match history dataset storage and processing
 
 📊 Feature Selection Strategy:
+
 To enhance model performance, certain features were removed due to high correlation or redundancy:
 
 🚫 Full-Time Goals Scored (FTGS) – Highly dependent on other features, leading to potential data leakage.
